@@ -1,0 +1,32 @@
+<div class="container">
+  <h1>Customer Form</h1>
+    <form>
+      <div class="form-group">
+        <label for="userId">User ID</label>
+        <input type="text" class="form-control" id="userId" required [(ngModel)]="model.userId" name="userId">
+      </div>
+      <div class="form-group">
+        <label for="customerId">Customer ID</label>
+        <input type="text" class="form-control" id="customerId" required [(ngModel)]="model.customerId" name="customerId">
+      </div>
+      <div class="form-group">
+        <label for="date">Date</label>
+        <input type="date" class="form-control" id="date" [(ngModel)]="model.date" name="date">
+      </div>
+      <div class="form-group">
+        <label for="modelId">Model ID</label>
+        <input type="text" class="form-control" id="modelId" [(ngModel)]="model.modelId" name="modelId">
+      </div>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" [(ngModel)]="model.name" name="name">
+      </div>
+      <div class="form-group">
+        <label for="modelName">Model Name</label>
+        <input type="text" class="form-control" id="modelName" [(ngModel)]="model.modelName" name="modelName">
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+      
+    </form>
+    
+</div>

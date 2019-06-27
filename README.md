@@ -1,4 +1,4 @@
-# vue-new
+# ML Model 
 
 ## Project setup
 ```
